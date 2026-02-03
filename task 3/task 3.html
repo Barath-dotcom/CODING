@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback</title>
+    <link rel="stylesheet" href="task 3.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Feedback Form</h2>
+
+    <form id="feedbackForm">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+
+        <label>Session Rating</label>
+        <div class="stars">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+
+        <textarea id="comments" placeholder="Comments (min 10 characters)"></textarea>
+
+        <p class="error" id="error"></p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>All Feedback</h3>
+    <div id="list"></div>
+
+    <p class="avg" id="avg">Average Rating: 0 ⭐</p>
+</div>
+
+<script src="task 3.js"></script>
+</body>
+</html>

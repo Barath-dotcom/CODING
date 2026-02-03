@@ -1,0 +1,40 @@
+.destinationPriceSection{
+    min-height: 90vh;
+    width: 100%;
+    background-color: #95a6b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;  
+}
+
+.destinationPriceSection .priceSectionHeading{
+    /* 1rem = 16px => 3.5rem => 56px */
+    font-size: 3.5rem;
+    font-style: italic;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.destinationPriceSection .priceSection {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.destinationPriceSection .priceSection .priceCard{
+    width:30%;
+    min-height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    color: white;
+    border-radius: 1.6rem;
+    padding:25px 0;
+    background-color: black;
+}
